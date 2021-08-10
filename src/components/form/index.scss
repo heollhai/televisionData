@@ -1,0 +1,46 @@
+$color-input-lable:#858585;
+$color-baby-blue:#02B2B5;
+$color-white:#FFF;
+$color-albescent:#E5F7F8;
+//查询表单
+/deep/.el-form-item{
+  margin-bottom: 0px !important;
+  margin: 10px 0 !important;
+}
+/deep/.el-form-item__label{
+  font-size: 12px;
+  padding: 0 12px 0 28px;
+}
+/deep/.el-form-item__content input{
+  font-size: 12px;
+}
+/deep/.el-input__inner{
+  height: 30px ;
+}
+/deep/.el-input__icon{
+  line-height: inherit;
+}
+/deep/.el-form-item__label{
+  height:40px;
+  line-height: 40px !important;
+}
+/deep/.el-form-item__label{
+  color: $color-input-lable ;
+}
+.inquire-button{
+  button{
+    width:60px;
+    height: 30px;
+  }
+  button:nth-of-type(1),button:nth-of-type(1):hover{
+    margin-left: 30px;
+    background: $color-baby-blue;
+    color: $color-white ;
+    border: 1px solid $color-baby-blue;
+  }
+  button:nth-of-type(2),button:nth-of-type(2):hover{
+    background: $color-albescent;
+    color: $color-baby-blue ;
+    border: 1px solid $color-albescent;
+  }
+}
